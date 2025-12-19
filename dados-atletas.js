@@ -33,7 +33,9 @@ class Atleta {
         return `Peso: ${this.peso}`;
     }
 
-    obtemNotasAtleta() {}
+    obtemNotasAtleta() {
+        return `Notas: ${this.notas}`;
+    }
 
     obtemCategoria() {
         return `Categoria: ${this.calculaCategoria()}`;
