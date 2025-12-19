@@ -21,7 +21,9 @@ class Atleta {
 
     calculaMediaValida() {}
 
-    obtemNomeAtleta() {}
+    obtemNomeAtleta() {
+        return `Nome: ${this.nome}`;
+    }
 
     obtemIdadeAtleta() {}
 
