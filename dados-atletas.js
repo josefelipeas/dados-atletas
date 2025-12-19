@@ -55,7 +55,9 @@ class Atleta {
         return `IMC: ${this.calculaIMC()}`;
     }
 
-    obtemMediaValida() {}
+    obtemMediaValida() {
+        return `Média válida: ${this.calculaMediaValida()}`
+    }
 
 }
 
