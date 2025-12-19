@@ -15,7 +15,9 @@ class Atleta {
         else return "Sem categoria";
     }
 
-    calculaIMC() {}
+    calculaIMC() {
+        return this.peso / (this.altura * this.altura);
+    }
 
     calculaMediaValida() {}
 
