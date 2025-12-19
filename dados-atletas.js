@@ -19,7 +19,17 @@ class Atleta {
         return this.peso / (this.altura * this.altura);
     }
 
-    calculaMediaValida() {}
+    calculaMediaValida() {
+        let notasValidas = this.notas.map(function(nota) {
+            return nota;
+        }).sort(function(a, b) {return a - b}).slice(1, 4);
+
+        let soma = notasValidas.reduce(function(soma, nota) {
+            return soma += nota;
+        }, 0);
+
+        return soma / notasValidas.length;
+    }
 
     obtemNomeAtleta() {
         return `Nome: ${this.nome}`;
