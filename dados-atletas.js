@@ -7,4 +7,24 @@ class Atleta {
         this.notas = notas;
     }
 
+    calculaCategoria() {}
+
+    calculaIMC() {}
+
+    calculaMediaValida() {}
+
+    obtemNomeAtleta() {}
+
+    obtemIdadeAtleta() {}
+
+    obtemPesoAtleta() {}
+
+    obtemNotasAtleta() {}
+
+    obtemCategoria() {}
+
+    obtemIMC() {}
+
+    obtemMediaValida() {}
+
 }
