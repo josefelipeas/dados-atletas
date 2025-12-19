@@ -27,7 +27,9 @@ class Atleta {
 
     obtemNotasAtleta() {}
 
-    obtemCategoria() {}
+    obtemCategoria() {
+        return this.calculaCategoria();
+    }
 
     obtemIMC() {}
 
