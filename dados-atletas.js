@@ -43,6 +43,10 @@ class Atleta {
         return `Peso: ${this.peso}`;
     }
 
+    obtemAlturaAtleta() {
+        return `Altura: ${this.altura}`;
+    }
+
     obtemNotasAtleta() {
         return `Notas: ${this.notas}`;
     }
@@ -66,6 +70,7 @@ const atleta = new Atleta("Cesar Abascal", 30, 80, 1.70, [10, 9.34, 8.42, 10, 7.
 console.log(atleta.obtemNomeAtleta());
 console.log(atleta.obtemIdadeAtleta());
 console.log(atleta.obtemPesoAtleta());
+console.log(atleta.obtemAlturaAtleta());
 console.log(atleta.obtemNotasAtleta());
 console.log(atleta.obtemCategoria());
 console.log(atleta.obtemIMC());
