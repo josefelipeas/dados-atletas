@@ -30,10 +30,12 @@ class Atleta {
     obtemNotasAtleta() {}
 
     obtemCategoria() {
-        return this.calculaCategoria();
+        return `Categoria: ${this.calculaCategoria()}`;
     }
 
-    obtemIMC() {}
+    obtemIMC() {
+        return `IMC: ${this.calculaIMC()}`;
+    }
 
     obtemMediaValida() {}
 
