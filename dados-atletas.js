@@ -25,7 +25,9 @@ class Atleta {
         return `Nome: ${this.nome}`;
     }
 
-    obtemIdadeAtleta() {}
+    obtemIdadeAtleta() {
+        return `Idade: ${this.idade}`;
+    }
 
     obtemPesoAtleta() {}
 
